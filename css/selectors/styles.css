@@ -1,0 +1,31 @@
+.space {
+	height: 1000px;
+}
+
+.id {
+	color: navy;
+}
+
+div {
+	color: blue;
+}
+
+div .class { /* Note the space between div and .class */
+	color: red;
+}
+
+div.class {
+	color: green;
+}
+
+div.class p {
+	color: yellow;
+}
+
+div h1.class {
+
+}
+
+#id {
+	color: purple;
+}
