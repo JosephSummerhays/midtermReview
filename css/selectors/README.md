@@ -18,7 +18,7 @@ Each space between simple selectors represents decendancy. `div a` represents an
 descendant of a `div` node. A rule with a selector to `div section a` would apply to the `a` node with 
 this genealogy:
 ```
-root->html->body->div->a.
+root->html->body->div->section->a.
 ```
 
 ### Pseudo-classes (:hover)
@@ -31,8 +31,10 @@ with `:hover`. the hover pseudo-class works as a descendant as you would expect 
 When there's a conflict between two rules, CSS chooses the "more specific" one. For example a rule for
 `a` is less specific than a rule for `div a`. In most cases, your general intuition about specificity
 holds. For details about how specificity is calculated, see the non essential section.
+
 # Non essential, but interesting
-This non essential section is not on the midterm, but can be important for developing.
+This non essential section is not on the midterm, but can be important for developing. Start by studying
+other sections of the midterm review.
 
 ### Non essential selectors
 A selector can have any number of classes on a single element. For example,
