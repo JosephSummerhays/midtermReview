@@ -1,24 +1,22 @@
-#CSS Padding vs Margin
+
+# CSS Padding vs Margin
+
 Run `less index.html` and `less styles.css` (press 'q' to exit `less`). Think about how this will render
 on the page. Then run a simple http server with python, visit localhost, and open the inspector.
 
-## Question 1:
-Why does it appear that there's only one border?
+## Question 1: Why does it appear that there's only one border?
 
 In the inspector find the `.inner` rule. Change it's padding attribute to `50px`.
 
-## Qestion 2:
-Does the padding go between the node and it's parent, or between the node and it's child?
+## Qestion 2: Does the padding go between the node and it's parent, or between the node and it's child?
 
 Change the padding back to 0px. Change the margin to 50px.
 
-## Qestion 3:
-Do margins go between the node and it's parent, or between the node and it's child?
+## Qestion 3: Do margins go between the node and it's parent, or between the node and it's child?
 
 Change the margins back to 0px. Find the `.outer` rule. Change it's padding attribute to 50px.
 
-## Question 4:
-How is padding in the parent similar to margins in the child?
+## Question 4: How is padding in the parent similar to margins in the child?
 
 Open index.html in your favorite text editor and give the inner div a sibling, like this:
 
@@ -44,11 +42,9 @@ Save index.html and open styles.css. Add a rule for the sibling class:
 Revisit localhost and open the inspector. Change the parent's padding to 50px and the sibling's margins
 to 0px.
 
-## Question 5:
-How is padding in the parent element different from margins in the child element?
+## Question 5: How is padding in the parent element different from margins in the child element?
 
-## Question 6:
-When should you choose to put padding on the parent and when should you choose to put margins on the
+## Question 6: When should you choose to put padding on the parent and when should you choose to put margins on the
 child?
 
 # Answers
