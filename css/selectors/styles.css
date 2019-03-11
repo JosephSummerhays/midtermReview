@@ -6,6 +6,18 @@
 	color: navy;
 }
 
+div:hover {
+	color: white;
+}
+
+div :hover {
+	color: black;
+}
+
+div .class:hover {
+	color: white;
+}
+
 div {
 	color: blue;
 }
