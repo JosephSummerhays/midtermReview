@@ -1,5 +1,5 @@
 console.log("I can grab DOM elements");
-// This code has some major bugs in it. fix it!
+// This code has some major bug in it. fix it!
 var e = document.getElementById("id");
 
 // The DOM is best thought of as a TREE of NODES
@@ -30,10 +30,14 @@ var e = document.getElementById("id");
 
 // this code is intentionally buggy. Don't trust it!
 var node = document.createElement("p");
+var node2 = document.createElement("p");
 var textnode = document.createTextNode("text Node");
+var textnode2 = document.createTextNode("yay");
 node.appendChild(textnode);
+node2.appendChild(textnode2);
+e.appendChild(node);
+e.appendChild(node2);
 
 //should work now, right? (no).
-e.appendChild(node);
 
 

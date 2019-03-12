@@ -34,11 +34,11 @@ array.forEach(function(){
 });
 console.log("the sum is "+sum);
 
-console.log("I wrote a function to filter out prime numbers");
+console.log("I wrote a function to filter out odd numbers");
 
-var noPrimes = array.filter(function(currentValue,i, arr) {
+var onlyEvens = array.filter(function(currentValue,i, arr) {
 	//your code here
 });
 
-console.log(noPrimes);
+console.log(onlyEvens);
 
