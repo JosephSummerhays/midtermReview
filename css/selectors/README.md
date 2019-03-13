@@ -4,7 +4,7 @@ These files are a demonstrations on how CSS selectors work. If you don't remembe
 first part of any rule. For example, `div.class` is a selector.
 
 If you think you've got a handle on selectors, take the quiz by reading through the index.html and
-styles.css and writting down what you think each element's color and hover color will be. There are
+styles.css and writing down what you think each element's color and hover color will be. There are
 empty space tags to seperate the elements, so you can do the quiz one element at a time if you'd prefer.
 If you can't tell which color an element is, you can open the inspector and double check. If you'd like 
 to read a bit more on selectors before quizing yourself, read on.
@@ -33,7 +33,7 @@ When there's a conflict between two rules, CSS chooses the "more specific" one. 
 `a` is less specific than a rule for `div a`. In most cases, your general intuition about specificity
 holds. For details about how specificity is calculated, see the non essential section.
 
-### Essential take aways for the test.
+# Essential take aways for the test.
 You should know what the difference is between a **class** and an **id**
 	- syntax differences in css,
 	- syntax differences in html,

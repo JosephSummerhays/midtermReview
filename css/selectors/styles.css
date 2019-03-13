@@ -7,10 +7,10 @@
 }
 
 div:hover {
-	color: white;
+	color: grey;
 }
 
-div :hover {
+div h1.class:hover {
 	color: black;
 }
 
