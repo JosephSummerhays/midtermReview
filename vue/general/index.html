@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<div id="app">
+		<h2> {{ mustacheSyntax }} </h2>
+		<h2 v-show="showBool"> This is a text node in a v-show </h2>
+		<button v-on:click="flipShowBool">Click to flip the v-show</button>
+		<h2 v-if="ifBool"> This is an if </h2>
+		<h2 v-else> this is an else </h2>
+		<button v-on:click="flipIfBool">Click to flip the if-else</button>
+		<h2 v-bind:class="{ className : classBool }"> This has a dynamic class </h2>
+		<button v-on:click="flipClassBool">Click to change the class</button>
+		<h2> and now I'd like to say a few words: </h2>
+		<ul>
+			<li v-for="word in words"> {{ word }} </li>
+		</ul>
+		<h2> would you like to add a word? </h2>
+		<form v-on:submit.prevent="addWord">
+			<input type="text" v-model="newWord"></input>
+			<button>Add</input>
+		</form>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="/script.js"></script>
+</html>

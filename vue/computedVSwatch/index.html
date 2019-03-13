@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<div id="app">
+		<h1> This was generated using a computed property: {{ computeThis }} </h1>
+		<h1> This was generated using a watcher function: {{ watcherOutput }} </h1>
+		<form v-on:submit.prevent="changeDependents">
+			<h4> Try changing the dependancies of the output </h4>
+			<input type="text" v-model="inp1"></input>
+			<input type="text" v-model="inp2"></input>
+			<input type="text" v-model="inp3"></input>
+			<button>Add</input>
+		</form>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="/script.js"></script>
+</html>

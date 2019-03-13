@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<div id="app">
+		<button> Button 1 </button>
+		<div v-on:click="this.console.log('Parent element')">
+			<button> Button 2 </button>
+			<div v-on:click="this.console.log('Child element')">
+				<button> Button 3 </button>
+				<div v-on:click="this.console.log('grandchild')">
+					<button> Button 4 </button>
+				</div>
+				<div v-on:click="this.console.log('other grandchild')"></div>
+			</div>
+		</div>
+		<form v-on:submit="this.console.log('Form submitted without refreshing')">
+			<button> Refresh </button>
+		</form>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="/script.js"></script>
+</html>
