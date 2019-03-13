@@ -35,9 +35,9 @@ holds. For details about how specificity is calculated, see the non essential se
 
 # Essential take aways for the test.
 You should know what the difference is between a **class** and an **id**
-	- syntax differences in css,
-	- syntax differences in html,
-	- and usage diferences.
+- syntax differences in css,
+- syntax differences in html,
+- and usage diferences.
 
 You should know how the Pseudo-class :hover works. We won't test you on any other Pseudo-classes.
 
